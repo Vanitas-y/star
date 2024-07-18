@@ -1,0 +1,84 @@
+body{
+    background-color: rgba(66, 0, 24, 0.886);
+    height: 100vh;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.container .card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffbcbc;
+    height: 320px;
+    width: 350px;
+    gap: 0.40rem;
+    border: double 0.5rem #be6969;
+    border-radius: 2rem;
+    padding: 0.74rem;
+}
+
+.container .card .titulo{
+    color: #be6969;
+    font-family: Poppins;
+    padding: 2px;
+}
+
+.container .card .text{
+    color: #be6969;
+    font-weight: bold;
+}
+
+.container .card .senha{
+    background-color: #ffe2e2;
+    border: solid 2px #be6969;
+    color: #be6969;
+    font-weight: bold;
+    border-radius: 1rem;
+    width: 200px;
+    height: 30px;
+    margin-top: 20px;
+    padding: 0 80px
+}
+
+.container .card .senha:hover{
+    background-color: #cb818155;
+    border-color: #c38585;
+}
+
+.container .card .btn-acessar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 12px;
+    background-color: #ffe2e2;
+    border: solid 2px #be6969;
+    padding: 20px;
+    margin-top: 20px;
+    height: 20px;
+    width: 40px;
+    border-radius: 10rem;
+    font-size: 25px;
+    transition: 0.4s ease-in-out;
+}
+
+.container .card .btn-acessar:hover{
+    border-color: #ffc7c7;
+    background-color: #be6969;
+    color: #ffc9c9;
+    transform: scale(1.2);
+}
+
+.container .card .btn-acessar a{
+    color: #be6969;
+}
+
+.container .card .btn-acessar a:hover{
+    color: #ffe2e2;
+}
